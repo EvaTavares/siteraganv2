@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* inicio do estilo header */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4AE1E;
+    height: 150px;
+    position: relative;
+}
+.logo img{
+    width: 300px;
+    height: 250px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+/* final do header */
+
+/* inicio body */
+.departamentos{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+.departamentos1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.departamentos1 ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 50px;
+}
+.departamentos1 ul li{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+/* final body */
