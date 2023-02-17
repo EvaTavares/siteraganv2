@@ -151,5 +151,27 @@ header nav ul li a{
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.instagram{
+    background-image: url(../imagens/fundobolinhas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.instagram_divulgacao{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.instagram_texto{
+    width: 700px;
+    font-size: 80px;
+    color: #224eae;
+}
+.instagram_imagem img{
+    width: 700px;
+}
 /* final body */
