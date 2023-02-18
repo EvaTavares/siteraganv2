@@ -6,17 +6,34 @@
     box-sizing: border-box;
 }
 /* inicio do estilo header */
-header{
+/* .menu{
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    background-color: #F4AE1E;
+    list-style-type: none;
+    list-style: none;
     height: 150px;
     position: relative;
+} */
+header{
+    background-color: #F4AE1E;
 }
 .logo img{
     width: 300px;
     height: 250px;
+    position: absolute;
+    top: 10px;
 }
+.menu li a{
+    text-decoration: none;
+}
+.menu li{
+    font-size: 1.5rem;
+}
+nav{
+    height: 150px;
+}
+/*
 header nav{
     display: flex;
     align-items: center;
@@ -35,16 +52,16 @@ header nav ul li a{
     color: black;
     padding-right: 10px;
     font-size: 1.3rem;
-}
+} */
 /* final do header */
 
 /* inicio body */
-.departamentos{
+/* .departamentos{
     width: 100%;
-    text-align: center;
+    text-align: center; */
     /* position: relative;  
     top: -150px; */
-    background-color: #224eae;
+    /* background-color: #224eae;
 }
 .departamentos1{
     display: flex;
@@ -173,5 +190,5 @@ header nav ul li a{
 }
 .instagram_imagem img{
     width: 700px;
-}
+} */
 /* final body */
