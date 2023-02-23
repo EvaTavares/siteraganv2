@@ -19,10 +19,8 @@ header{
     background-color: #F4AE1E;
 }
 .logo img{
-    width: 300px;
-    height: 250px;
-    position: absolute;
-    top: 10px;
+    width: 200px;
+    height: 150px;
 }
 .menu li a{
     text-decoration: none;
@@ -33,6 +31,7 @@ header{
 nav{
     height: 150px;
 }
+
 /*
 header nav{
     display: flex;
@@ -62,15 +61,16 @@ header nav ul li a{
     /* position: relative;  
     top: -150px; */
     /* background-color: #224eae;
+}*/
+#row {
+    gap: 100px;
 }
 .departamentos1{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    position: relative;
-    top: -150px;
+   height: 18.5rem;
+   width: 18.5rem;
 }
-.departamentos1 ul{
+
+/*.departamentos1 ul{
     display: flex;
     list-style-type: none;
     text-decoration: none;
@@ -82,6 +82,10 @@ header nav ul li a{
     width: 18.5rem;
     background-color: rgb(59, 209, 151);
     text-align: center;
+}*/
+.departamentos{
+    margin: -150px;
+
 }
 .horti{
     background-image: url(../imagens/hortifruti2.jpg);
@@ -91,7 +95,6 @@ header nav ul li a{
     font-size: 3em;
     color: white;
     font-family: 'Crete Round', serif;
-    padding-top: 15%;
     border-radius: 5px;
 }
 .acougue{
@@ -102,7 +105,6 @@ header nav ul li a{
     font-size: 3em;
     color: white;
     font-family: 'Crete Round', serif;
-    padding-top: 15%;
     border-radius: 5px;
 }
 .padaria{
@@ -113,10 +115,17 @@ header nav ul li a{
     font-size: 3em;
     color: white;
     font-family: 'Crete Round', serif;
-    padding-top: 15%;
     border-radius: 5px;
 }
 
+.fidelidade { 
+    background-color: aqua;
+    font-size: 3em;
+    color: white;
+    font-family: 'Crete Round', serif;
+    border-radius: 5px;
+}
+/*
 .lugares{
     width: 100%;
     height: 60px;
@@ -192,3 +201,14 @@ header nav ul li a{
     width: 700px;
 } */
 /* final body */
+@media only screen and (max-width: 1506px) {
+    #row {
+      gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1236px) {
+    .departamentos{
+        margin: 0;
+    }
+}
