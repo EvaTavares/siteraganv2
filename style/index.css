@@ -18,20 +18,48 @@
 header{
     background-color: #F4AE1E;
 }
-.logo img{
+
+.logo img,
+ .bar-menu-mob img,
+ .logo-menu-mob img,
+ .logo-menu-mobile img {
     width: 200px;
     height: 150px;
 }
-.menu li a{
+
+.home{
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-}
-.menu li{
-    font-size: 1.5rem;
-}
-nav{
-    height: 150px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
+.home:hover{
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 769px){
+.headerMob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+#header-mob {
+    position: relative;
+    top: 0;
+    padding: 2rem;
+    z-index: 9;
+    display: block;
+    }
+.mobile-only {
+    display: block;
+    }
+}   
+
+.mobile-only{
+    display: none;
+}
 /*
 header nav{
     display: flex;
