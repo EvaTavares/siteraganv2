@@ -38,28 +38,53 @@ header{
     border-bottom: 1px solid black;
 }
 
+.mobile-only{
+    display: none;
+}
+
+.bi {
+    font-size: 40px;
+    color: #fff;
+}
+
 @media only screen and (max-width: 769px){
 .headerMob {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    }
+}
+
 #header-mob {
     position: relative;
     top: 0;
     padding: 2rem;
     z-index: 9;
     display: block;
-    }
+}
+
 .mobile-only {
     display: block;
-    }
-}   
+}
 
-.mobile-only{
+#header-deskTop {
     display: none;
 }
+
+.bar-menu-mob{
+    position: absolute;
+    left: 0;
+}
+
+.logo-menu-mob{
+    text-align: center;
+}
+.logo-menu-mob img {
+    /* width: ; */
+}
+}   
+
+
 /*
 header nav{
     display: flex;
