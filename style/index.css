@@ -47,6 +47,7 @@ header{
     color: #fff;
 }
 
+
 @media only screen and (max-width: 769px){
 .headerMob {
     display: flex;
@@ -74,16 +75,57 @@ header{
 .bar-menu-mob{
     position: absolute;
     left: 0;
+    cursor: pointer;
 }
 
 .logo-menu-mob{
     text-align: center;
 }
-.logo-menu-mob img {
-    /* width: ; */
-}
-}   
 
+#menu-mobile {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 85%;
+    height: 100vh;
+    background-color: #F4AE1E;
+    padding: 2rem 0 2rem 2rem;  
+    transition-duration: 1s;
+}
+
+.fechar {
+    border: none;
+    background: unset;
+}
+
+.close-menu-mob {
+    position: absolute;
+    top: 1.7rem;
+    right: 1.5rem;
+}
+
+.logo-menu-mobile {
+    position: absolute;
+    top: 0;
+}
+
+.logo-menu-mobile img {
+    width: 150px;
+    height: 120px;
+}
+
+.nav-mob{
+    padding-top: 8rem;
+}
+
+.nav-mob ul li {
+    margin-bottom: 1.5rem;
+}
+}  
+
+.bar-menu-mob:hover {
+    left: 0;   
+}
 
 /*
 header nav{
