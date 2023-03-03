@@ -1,6 +1,6 @@
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 2,
         dots: '.dots',
         arrows: {

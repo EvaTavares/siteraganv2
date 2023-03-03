@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+p{
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+}
 /* inicio do estilo header */
 /* .menu{
     display: flex;
@@ -47,91 +51,6 @@ header{
     color: #fff;
 }
 
-
-@media only screen and (max-width: 769px){
-.headerMob {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-#header-mob {
-    position: relative;
-    top: 0;
-    padding: 2rem 0;
-    z-index: 9;
-    display: block;
-}
-
-.mobile-only {
-    display: block;
-}
-
-#header-deskTop {
-    display: none;
-}
-
-.bar-menu-mob{
-    position: absolute;
-    left: 0;
-    cursor: pointer;
-}
-
-.logo-menu-mob{
-    text-align: center;
-}
-
-#menu-mobile {
-    position: absolute;
-    left: -100%;
-    top: 0;
-    width: 85%;
-    height: 100vh;
-    background-color: #F4AE1E;
-    padding: 2rem 0 2rem 2rem;  
-    transition-duration: 1s;
-}
-
-.fechar {
-    border: none;
-    background: unset;
-}
-
-.close-menu-mob {
-    position: absolute;
-    top: 1.7rem;
-    right: 1.5rem;
-}
-
-.logo-menu-mobile {
-    position: absolute;
-    top: 0;
-}
-
-.logo-menu-mobile img {
-    width: 150px;
-    height: 120px;
-}
-
-.nav-mob{
-    padding-top: 8rem;
-}
-
-.nav-mob ul li {
-    margin-bottom: 1.5rem;
-}
-
-
-}  
-
-@media only screen and(max-width: 1213px){
-    .departamentos{
-        display: none;
-    }
-
-}
-
 .bar-menu-mob:hover {
     left: 0;   
 }
@@ -166,6 +85,9 @@ header nav ul li a{
     top: -150px; */
     /* background-color: #224eae;
 }*/
+.departamentos-mob{
+    display: none;
+}
 #row {
     gap: 100px;
 }
@@ -191,7 +113,7 @@ header nav ul li a{
     text-align: center;
 }*/
 .departamentos{
-    margin: -150px;
+    margin-top: -150px;
 
 }
 .horti{
@@ -232,8 +154,8 @@ header nav ul li a{
     font-family: 'Crete Round', serif;
     border-radius: 5px;
 }
-/*
-.lugares{
+
+/* .lugares{
     width: 100%;
     height: 60px;
     background-color: #224eae;
@@ -244,7 +166,7 @@ header nav ul li a{
     font-size: 3rem;
     color: rgb(222, 222, 59);
     text-shadow: 2px 4px 7px black;
-}
+} */
 
 #carousel_lugar{
     width: 100%;
@@ -272,6 +194,10 @@ header nav ul li a{
     font-size: 1.3rem;
     color: white;
 }
+.card-style{
+    background-color: transparent;
+    border: none;
+}
 .numero{
     display: flex;
     align-items: center;
@@ -284,6 +210,7 @@ header nav ul li a{
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+/*
 .instagram{
     background-image: url(../imagens/fundobolinhas.png);
     background-size: cover;
@@ -308,14 +235,130 @@ header nav ul li a{
     width: 700px;
 } */
 /* final body */
+
+/* media dos departamentos */
+@media only screen and (max-width: 1023px){
+    .departamentos{
+        display: none;
+    }
+    .departamentos-mob{
+        display: block;
+    }
+    .hortifruti-mob{
+        background-color: #8DC63F;
+    }
+    .padaria-mob{
+        background-color: #FCB040;
+    }
+    .acougue-mob{
+        background-color: #FE0000;
+    }
+    .fidelidade-mob{
+        background-color: #255fb6;
+    }
+    .departamentos-mobile{
+        border-radius: 5px 0 5px 0;
+        padding: 20px;
+        font-weight: bold;
+    }
+}
 @media only screen and (max-width: 1506px) {
     #row {
-      gap: 10px;
+      gap: 60px;
+    }
+    .departamentos1{
+        height: 13.5rem;
+        width: 13.5rem;
+     }
+     .departamentos{
+        margin-top: -100px;
     }
 }
+@media only screen and (max-width: 1150px) {
+    #row {
+      gap: 20px;
+    }
+    .departamentos1{
+        height: 13.5rem;
+        width: 13.5rem;
+     }
+     .departamentos{
+        margin-top: -70px;
+    }
+}
+/* fim das medias dos departamentos */
 
-@media only screen and (max-width: 1236px) {
-    .departamentos{
-        margin: 0;
+@media only screen and (max-width: 769px){
+    .headerMob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
     }
-}
+    
+    #header-mob {
+        position: relative;
+        top: 0;
+        padding: 2rem 0;
+        z-index: 9;
+        display: block;
+    }
+    
+    .mobile-only {
+        display: block;
+    }
+    
+    #header-deskTop {
+        display: none;
+    }
+    
+    .bar-menu-mob{
+        position: absolute;
+        left: 0;
+        cursor: pointer;
+    }
+    
+    .logo-menu-mob{
+        text-align: center;
+    }
+    
+    #menu-mobile {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        width: 85%;
+        height: 100vh;
+        background-color: #F4AE1E;
+        padding: 2rem 0 2rem 2rem;  
+        transition-duration: 1s;
+    }
+    
+    .fechar {
+        border: none;
+        background: unset;
+    }
+    
+    .close-menu-mob {
+        position: absolute;
+        top: 1.7rem;
+        right: 1.5rem;
+    }
+    
+    .logo-menu-mobile {
+        position: absolute;
+        top: 0;
+    }
+    
+    .logo-menu-mobile img {
+        width: 150px;
+        height: 120px;
+    }
+    
+    .nav-mob{
+        padding-top: 8rem;
+    }
+    
+    .nav-mob ul li {
+        margin-bottom: 1.5rem;
+    }   
+}  
