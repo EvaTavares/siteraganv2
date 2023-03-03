@@ -121,7 +121,16 @@ header{
 .nav-mob ul li {
     margin-bottom: 1.5rem;
 }
+
+
 }  
+
+@media only screen and(max-width: 1213px){
+    .departamentos{
+        display: none;
+    }
+
+}
 
 .bar-menu-mob:hover {
     left: 0;   
@@ -165,6 +174,9 @@ header nav ul li a{
    width: 18.5rem;
 }
 
+.departamentos-mobile{
+    padding: 10p;
+}
 /*.departamentos1 ul{
     display: flex;
     list-style-type: none;
