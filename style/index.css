@@ -9,16 +9,12 @@ p{
     margin: 0 !important;
     margin-bottom: 0 !important;
 }
+
+body {
+    background-color:  #224eae;
+}
 /* inicio do estilo header */
-/* .menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    list-style: none;
-    height: 150px;
-    position: relative;
-} */
+
 header{
     background-color: #F4AE1E;
 }
@@ -55,36 +51,6 @@ header{
     left: 0;   
 }
 
-/*
-header nav{
-    display: flex;
-    align-items: center;
-}
-header nav ul{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-}
-header nav ul li{
-    list-style-type: none;
-}
-header nav ul li a{
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-    padding-right: 10px;
-    font-size: 1.3rem;
-} */
-/* final do header */
-
-/* inicio body */
-/* .departamentos{
-    width: 100%;
-    text-align: center; */
-    /* position: relative;  
-    top: -150px; */
-    /* background-color: #224eae;
-}*/
 .departamentos-mob{
     display: none;
 }
@@ -99,19 +65,7 @@ header nav ul li a{
 .departamentos-mobile{
     padding: 10p;
 }
-/*.departamentos1 ul{
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
-    gap: 50px;
-    opacity: 1;
-}
-.departamentos1 ul li{
-    height: 18.5rem;
-    width: 18.5rem;
-    background-color: rgb(59, 209, 151);
-    text-align: center;
-}*/
+
 .departamentos{
     margin-top: -150px;
 
@@ -155,19 +109,32 @@ header nav ul li a{
     border-radius: 5px;
 }
 
-/* .lugares{
-    width: 100%;
-    height: 60px;
-    background-color: #224eae;
-    text-align: center;
-    padding-bottom: 120px;
+/* .circle-position{
+    position: relative;
 }
-.lugares h2{
-    font-size: 3rem;
-    color: rgb(222, 222, 59);
-    text-shadow: 2px 4px 7px black;
-} */
+.circle {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: #F4AE1E;
+    position: absolute;
+}
 
+.left{
+    top: 10%;
+    left: -10%;
+}
+
+.right{
+    bottom: -20%;
+    right: 0;
+} */
+.text-location{
+    text-align: center;
+    padding: 50px 0;
+    color: #F4AE1E;
+    text-shadow: 2px 4px 7px black;
+}
 #carousel_lugar{
     width: 100%;
     background-color: #224eae;
@@ -209,6 +176,14 @@ header nav ul li a{
     color: white;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+.marketing{
+    background-color: #F4AE1E;
+}
+
+.marketing-left{
+    color: #224eae;
+    font-size: 5rem;
 }
 /*
 .instagram{
@@ -361,4 +336,18 @@ header nav ul li a{
     .nav-mob ul li {
         margin-bottom: 1.5rem;
     }   
+
+    /* .circle {
+        height: 150px;
+        width: 150px;
+    }
+
+    .left{
+        top: 20%;
+        left: -10%;
+    }
+    
+    .right{
+        right: -50%;
+    } */
 }  
