@@ -135,10 +135,12 @@ header{
     color: #F4AE1E;
     text-shadow: 2px 4px 7px black;
 }
+
 #carousel_lugar{
     width: 100%;
     background-color: #224eae;
 }
+
 .mercados{
     max-width: 80%;
     position: relative;
@@ -182,37 +184,48 @@ header{
 }
 
 .marketing-left{
+    margin-left: 10%;
     color: #224eae;
     font-size: 5rem;
+    text-shadow: 2px 4px 7px #fff;
 }
-/*
-.instagram{
-    background-image: url(../imagens/fundobolinhas.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 800px;
+
+#responsive {
     position: relative;
 }
-.instagram_divulgacao{
+
+.cartaz {
+    max-width: 90%;
+    margin-right: 50px;
+}
+
+.pay-hall{
+    background-color: #fff;
+}
+
+.cartoes{
+    max-width: 80%;
+    position: relative;
+    margin-left: 10%;
+}
+
+.card-style-2 {
+    width: 350px;
+}
+
+.carousel-cards{
+    width: 100%;
+    background-color: #fff;
+}
+
+.card-2{
+    padding: 30px;
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    align-items: center;
 }
-.instagram_texto{
-    width: 700px;
-    font-size: 80px;
-    color: #224eae;
-}
-.instagram_imagem img{
-    width: 700px;
-} */
-/* final body */
 
 /* media dos departamentos */
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
     .departamentos{
         display: none;
     }
@@ -235,6 +248,18 @@ header{
         border-radius: 5px 0 5px 0;
         padding: 20px;
         font-weight: bold;
+    }
+
+    .marketing-left {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .cartaz {
+        margin: 0;
     }
 }
 @media only screen and (max-width: 1506px) {
@@ -337,17 +362,15 @@ header{
         margin-bottom: 1.5rem;
     }   
 
-    /* .circle {
-        height: 150px;
-        width: 150px;
+    .marketing-left {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 30px;
+        margin-left: 0;
     }
 
-    .left{
-        top: 20%;
-        left: -10%;
+    .cartaz {
+        margin: 0;
     }
-    
-    .right{
-        right: -50%;
-    } */
 }  

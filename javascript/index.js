@@ -46,3 +46,36 @@ closed.addEventListener("click", function(){
   close.setAttribute("style", "left:-100%")  
 })
 
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.glider-2'), {
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      dots: '.dots-2',
+      arrows: {
+        prev: '.glider-prev-2',
+        next: '.glider-next-2'
+      },
+      responsive: [
+        {
+          breakpoint: 1,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          }
+        }
+      ]
+    })});
