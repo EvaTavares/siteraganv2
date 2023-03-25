@@ -223,7 +223,46 @@ header{
     display: flex;
     align-items: center;
 }
-
+.vrr img{
+    height: 300px;
+    width: 250px;
+}
+.footer{
+    background-color: #F4AE1E;
+    padding: 50px 50px 0 50px;
+}
+.redes-sociais{
+    text-align: center;
+}
+.horarios{
+    text-align: center;
+}
+.logooo{
+    width: 300px;
+    height: 250px;
+}
+.icone{
+    color: #224eae;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tamanho-h3{
+    font-size: x-large;
+}
+.horarios-lojas, .horarios-responsive{
+    text-align: center;
+}
+.bi-whatsapp{
+    font-size: 25px;
+    color: #568416;
+}
+.matriz p, .betania p, .canarinho p, .ibiza p{
+    font-size: 20px;
+}
 /* media dos departamentos */
 @media only screen and (max-width: 1024px){
     .departamentos{
@@ -260,6 +299,10 @@ header{
 
     .cartaz {
         margin: 0;
+    }
+    .logooo{
+        width: 180px;
+        height: 150px;
     }
 }
 @media only screen and (max-width: 1506px) {
@@ -372,5 +415,15 @@ header{
 
     .cartaz {
         margin: 0;
+    }
+    .margin{
+        margin-bottom: 40px;
+    }
+    .horarios-lojas, .horarios-responsive{
+        text-align: center;
+    }
+    .logooo{
+        width: 200px;
+        height: 150px;
     }
 }  
