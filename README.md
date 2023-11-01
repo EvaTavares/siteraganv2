@@ -5,11 +5,11 @@ Projeto de website desenvolvido para a rede de supermercados Ragan.
 
  <div >
  
- ### Visualização Desktop 
+ ### :computer: Visualização Desktop 
  ![desktop](./imagens/readme/desktop.png)
  ![desktop footer](./imagens/readme/desktop2.png)
 
- ### Visualização mobile
+ ###  :iphone: Visualização mobile
 
  ![desktop](./imagens/readme/mobile1.png)
  ![desktop](./imagens/readme/mobile2.png)
